@@ -3,7 +3,7 @@
 webhookとGoogleAppScriptの設定をすると稼働できます。
 
 ## セットアップ
-まず、[GoogleAppScript](https://script.google.com/home)のダッシュボードに移動してください。<br>
+まず、[GoogleAppScript](https://script.google.com/home){:target="_blank"}のダッシュボードに移動してください。<br>
 新しいスクリプトを作成し、火曜日・土曜日.gsと木曜日・日曜日.gsのコードをコピー&ペーストしてください。
 
 ## トリガーの設定
