@@ -1,13 +1,15 @@
 # myriadRaceNotification
-メダルゲームシュミレーションゲーム　「パトネットリゾート２」のイベント、ミリアドレースの告知をするbotです。<br>
+メダルゲームシュミレーションゲーム　「パトネットリゾート２」のイベント、ミリアドレースの告知をするDiscordのwebhookで動作するbotです。<br>
 webhookとGoogleAppScriptの設定をすると稼働できます。
 
 ## セットアップ
-まず、[GoogleAppScript](https://script.google.com/home)のダッシュボードに移動してください。
-新しいスクリプトを作成し、コードをコピー&ペーストしてください。
+まず、[GoogleAppScript](https://script.google.com/home)のダッシュボードに移動してください。<br>
+新しいスクリプトを作成し、火曜日・土曜日.gsと木曜日・日曜日.gsのコードをコピー&ペーストしてください。
 
 ## トリガーの設定
 時計のアイコンから、トリガーの設定に移動します。<br>
+`myriadRase1`は火曜日・土曜日<br>
+`myriadRase2`は木曜日・日曜日です。<br>
 トリガーの時刻設定に関しては任意です。ただし、曜日に注意してください
 
 ## 自動告知
