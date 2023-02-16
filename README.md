@@ -3,8 +3,8 @@
 webhookとGoogleAppScriptの設定をすると稼働できます。
 
 ## セットアップ
-まず、[GoogleAppScript](https://script.google.com/home){:target="_blank"}のダッシュボードに移動してください。<br>
-新しいスクリプトを作成し、火曜日・土曜日.gsと木曜日・日曜日.gsのコードをコピー&ペーストしてください。
+まず、[GoogleAppScript](https://script.google.com/home)のダッシュボードに移動してください。<br>
+新しいスクリプトを作成し、[火曜日・土曜日.gs](https://github.com/animalotta0206/myriadRaceNotification/blob/main/%E7%81%AB%E6%9B%9C%E6%97%A5%E3%83%BB%E5%9C%9F%E6%9B%9C%E6%97%A5.gs)と[木曜日・日曜日.gs](https://github.com/animalotta0206/myriadRaceNotification/blob/main/%E6%9C%A8%E6%9B%9C%E6%97%A5%E3%83%BB%E6%97%A5%E6%9B%9C%E6%97%A5.gs)のコードをコピー&ペーストしてください。
 
 ## トリガーの設定
 時計のアイコンから、トリガーの設定に移動します。<br>
