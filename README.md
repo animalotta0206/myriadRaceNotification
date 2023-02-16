@@ -1,0 +1,2 @@
+# myriadRaceNotification
+メダルゲームシュミレーションゲーム　「パトネットリゾート２」のイベント、ミリアドレースの告知をするbotです。　webhookとGoogleAppScriptの設定をすると稼働できます。
