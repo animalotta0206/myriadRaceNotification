@@ -19,14 +19,14 @@ function myriadRace1() {
  let time = new Date();
  const thisDay = time.getDay();
 if(thisDay == 2){
-  time.setDate(time.getDate() + 4); //日付
+  time.setDate(time.getDate() + 4); //日付 ここは操作しないでください。
   time.setHours(15); //時
   time.setMinutes(0); //分
   time.setSeconds(0);　//秒
   ScriptApp.newTrigger('myriadRace1').timeBased().at(time).create();  
     }
 else{
- time.setDate(time.getDate() + 3); //日付
+ time.setDate(time.getDate() + 3); //日付 ここは操作しないでください。
   time.setHours(15); //時
   time.setMinutes(0); //分
   time.setSeconds(0);　//秒
