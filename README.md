@@ -28,4 +28,4 @@ webhookとGoogleAppScriptの設定をすると稼働できます。
 この部分を操作することで、告知時間を秒単位で変更することができます。
 
 ### お問い合わせは…
-Discord:animalotta0206#0556までおねがいします。
+Discord:`animalotta0206#0556`までおねがいします。
