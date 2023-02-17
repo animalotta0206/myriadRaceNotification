@@ -12,7 +12,7 @@ function myriadRace2() {
     )
   };
  
-  UrlFetchApp.fetch("<Your webhook url", options);
+  UrlFetchApp.fetch("<Your webhookURL", options);
   
  //新しいトリガーの作成次の週に実行されるようにする。
  let time = new Date();
