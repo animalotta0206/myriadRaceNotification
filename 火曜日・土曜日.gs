@@ -12,7 +12,7 @@ function myriadRace1() {
     )
   };
  
-  UrlFetchApp.fetch("<Your Webhookurl>", options);
+  UrlFetchApp.fetch("<Your WebhookURL>", options);
 
   //新しいトリガーの作成
   //曜日によって設定日時を変更するようにする。
