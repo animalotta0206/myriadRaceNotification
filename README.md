@@ -25,7 +25,7 @@ webhookとGoogleAppScriptの設定をすると稼働できます。
   ScriptApp.newTrigger('myriadRace1').timeBased().at(time).create();  
     }
 ```
-の部分を操作することで、告知時間を秒単位で変更することができます。
+この部分を操作することで、告知時間を秒単位で変更することができます。
 
 ### お問い合わせは…
 Discord:animalotta0206#0556までおねがいします。
