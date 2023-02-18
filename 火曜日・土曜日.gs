@@ -13,6 +13,14 @@ function myriadRace1() {
   };
  
   UrlFetchApp.fetch("<Your WebhookURL>", options);
+ 
+  //無効なトリガーを削除
+  const triggers = ScriptApp.getProjectTriggers();
+  for(let i=0;i<triggers.length;i++){
+    if(triggers[i].getHandlerFunction()==='myriadRace1'){
+      ScriptApp.deleteTrigger(triggers[i]);
+    }
+  }
 
   //新しいトリガーの作成
   //曜日によって設定日時を変更するようにする。
