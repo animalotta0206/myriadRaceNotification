@@ -13,6 +13,14 @@ function myriadRace2() {
   };
  
   UrlFetchApp.fetch("<Your webhookURL", options);
+ 
+ //無効なトリガーを削除
+  const triggers = ScriptApp.getProjectTriggers();
+  for(let i=0;i<triggers.length;i++){
+    if(triggers[i].getHandlerFunction()==='myriadRace2'){
+      ScriptApp.deleteTrigger(triggers[i]);
+    }
+  }
   
  //新しいトリガーの作成次の週に実行されるようにする。
  let time = new Date();
